@@ -177,7 +177,7 @@ const Index = () => {
               />
               
               <Glyph 
-                type="\\\"
+                type="\\"
                 concept="Mirror Path"
                 description="Routes of reflection that bend inward toward self-awareness"
                 size="md"

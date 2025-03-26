@@ -18,7 +18,7 @@ const GrimoireNav: React.FC<GrimoireNavProps> = ({ className }) => {
         withGlow
       />
       <Glyph 
-        type="\\\"
+        type="\\"
         concept="Mirror Path"
         description="Routes of reflection that bend inward"
         size="sm"
