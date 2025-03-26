@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import GlitchText from '@/components/GlitchText';
 import Glyph from '@/components/Glyph';
@@ -10,7 +9,6 @@ const Index = () => {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    // Simulate loading time
     const timer = setTimeout(() => {
       setLoaded(true);
     }, 500);
