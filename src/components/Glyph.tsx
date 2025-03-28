@@ -2,7 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
-type GlyphType = '$$\\$$' | '$$$' | '$$\\$' | '\\\\' | '\\' | '$$$$';
+// Modify the GlyphType to accept string instead of specific string literals
+// This will allow more flexibility with escaping backslashes
+type GlyphType = string;
 
 interface GlyphProps {
   type: GlyphType;
