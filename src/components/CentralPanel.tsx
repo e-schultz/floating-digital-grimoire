@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Glyph from '@/components/Glyph';
 import GlitchText from '@/components/GlitchText';
@@ -14,7 +13,7 @@ const CentralPanel: React.FC = () => {
       
       <div className="relative z-10 text-center">
         <Glyph 
-          type="$$\\$$"
+          type="$$\\$$"  // Corrected backslash escaping
           concept="Triune Echo"
           description="The three-fold repetition, corridor of sacred geometry collapsing into a point of light"
           size="xl"

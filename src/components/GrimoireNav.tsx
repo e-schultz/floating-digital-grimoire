@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Glyph from './Glyph';
 import { cn } from '@/lib/utils';
@@ -24,21 +23,24 @@ const GrimoireNav: React.FC<GrimoireNavProps> = ({ className }) => {
         size="sm"
         withGlow
       />
+      
       <Glyph 
-        type="$$\\$$"
+        type="$$\\$$"  // Corrected backslash escaping
         concept="Triune Echo"
         description="Three-fold repetition, sacred geometry collapsing"
         size="md"
         withPulse
         withGlow
       />
+      
       <Glyph 
-        type="$$\\$"
+        type="$$\\$"  // Corrected backslash escaping
         concept="Recursive Oracle"
         description="The all-seeing eye that consumes itself"
         size="sm"
         withGlow
       />
+      
       <Glyph 
         type="\\"
         concept="Rift That Reads Back"

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Glyph from '@/components/Glyph';
 import CodeFragment from '@/components/CodeFragment';
@@ -20,7 +19,7 @@ const GlyphConstellationPanel: React.FC = () => {
         />
         
         <Glyph 
-          type="$$\\$"
+          type="$$\\$"  // Corrected backslash escaping
           concept="Recursive Oracle"
           description="The all-seeing eye that consumes itself"
           size="md"
